@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter Feed</title>
+  <link rel="stylesheet" type="text/css" href="style/feed.css">
+</head>
+<body>
+  <header>
+    <h1>Twitter Feed</h1>
+  </header>
+  <main>
+    <form id="tweet-form">
+      <textarea id="tweet-input" maxlength="140" placeholder="What's happening?"></textarea>
+      <button type="submit">Post</button>
+    </form>
+    <ul id="tweets">
+      <li class="tweet">
+        <p class="username">Username1</p>
+        <p class="tweet-text">This is a sample tweet</p>
+      </li>
+      <li class="tweet">
+        <p class="username">Username2</p>
+        <p class="tweet-text">This is another sample tweet</p>
+      </li>
+    </ul>
+  </main>
+  <script src="script/feed.js"></script>
+</body>
+</html>
