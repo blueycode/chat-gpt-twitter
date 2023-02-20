@@ -51,6 +51,10 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/blueycode/chat-gpt-twitter.git
    ```
 2. Run a local server, like Live Server
+3. The credentials for the log in are:
+
+Username: `BlueyCode`
+Password: `123321`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
